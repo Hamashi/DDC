@@ -2,7 +2,7 @@
     <div class="col xs12 s6 m2" *ngFor="let vignette of vignettes">
       <div class="card">
         <div class="card-image">
-          <div *ngIf="date>=vignette" class="vignetteimg">
+          <div *ngIf="date>=vignette" class="vignetteimg" (click)="onSelect(vignette)">
             <img src="../../assets/vignettes/vignette{{vignette}}.jpg" >
             <span class="card-title">{{vignette}}</span>
           </div>
@@ -15,4 +15,6 @@
     </div>
   </div>
 
+  <input [(ngModel)]="date" placeholder="dateFaker">
 
+<app-modale *ngIf="selected!=0" [selected]="selected" (click)="onSelect(0)"></app-modale>

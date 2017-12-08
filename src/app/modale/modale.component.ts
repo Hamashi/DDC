@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-modale',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ModaleComponent implements OnInit {
 
   constructor() { }
-
+  @Input('selected') selected: number;
   ngOnInit() {
   }
 
