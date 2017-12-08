@@ -1,7 +1,7 @@
 .modale{
 
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 1003; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -12,5 +12,15 @@
 }
 
 .modale-content{
-
+  position: fixed;
+  top: 10%;
+  padding: 24px;
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  max-height: 70%;
+  width: 55%;
+  margin: auto;
+  overflow-y: auto;
+  border-radius: 2px;
 }
