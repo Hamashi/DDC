@@ -14,7 +14,8 @@
 }
 
 .modale-content{
-
+  font-family: "Roboto Mono for Powerline";
+  text-align: center;
   position: fixed;
   top: 5%;
   padding: 24px;
@@ -22,12 +23,18 @@
   right: 0;
   background-color: #fafafa;
   width: 55%;
+  max-height:80%;
   margin: auto;
   overflow-y: auto;
   border-radius: 2px;
+
+}
+
+.modale-content p{
+  text-align: left;
 }
 
 .modale-content img{
-  width: 70%;
-  margin-left: 15%;
+
+  max-width: 70%;
 }
