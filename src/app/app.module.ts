@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { VignettesComponent } from './vignettes/vignettes.component';
 import { ModaleComponent } from './modale/modale.component';
 
+import { KonamiModule } from 'ngx-konami';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ModaleComponent } from './modale/modale.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    KonamiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
