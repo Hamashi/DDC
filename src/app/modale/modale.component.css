@@ -12,15 +12,20 @@
 }
 
 .modale-content{
+
   position: fixed;
-  top: 10%;
+  top: 5%;
   padding: 24px;
   left: 0;
   right: 0;
   background-color: #fafafa;
-  max-height: 70%;
   width: 55%;
   margin: auto;
   overflow-y: auto;
   border-radius: 2px;
+}
+
+.modale-content img{
+  width: 70%;
+  margin-left: 15%;
 }
