@@ -11,5 +11,4 @@ export class ModaleComponent implements OnInit {
   @Input('selected') selected: number;
   ngOnInit() {
   }
-
 }
