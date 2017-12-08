@@ -1,3 +1,18 @@
-<p>
-  vignettes works!
-</p>
+  <div class="row" >
+    <div class="col xs12 s6 m2" *ngFor="let vignette of vignettes">
+      <div class="card">
+        <div class="card-image">
+          <div *ngIf="date>=vignette" class="vignetteimg">
+            <img src="../../assets/vignettes/vignette{{vignette}}.jpg" >
+            <span class="card-title">{{vignette}}</span>
+          </div>
+          <div *ngIf="date<vignette" class="notyetimg">
+            <img src="../../assets/vignettes/notyet.jpg" >
+            <span class="card-title">{{vignette}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+

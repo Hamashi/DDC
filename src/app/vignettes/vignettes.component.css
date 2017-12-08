@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.card-title{
+  font-weight: bold ;
+  background-color: rgba(0,0,0,0.5);
+  margin-bottom: 10%;
+  margin-left:35%;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.vignetteimg:hover{
+opacity: 0.5;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
