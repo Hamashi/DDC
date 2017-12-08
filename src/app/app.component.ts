@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   start = true;
-
+  redirect(){
+    window.location.replace("http://www.google.fr");
+  }
   onClose(){
     this.start = false;
   }
